@@ -1,9 +1,7 @@
 from flask import Flask
-from views import views
 from home import home
 
 app = Flask(__name__)
-app.register_blueprint(views, url_prefix="/views")
 app.register_blueprint(home, url_prefix="/home")
 
 if __name__ == '__main__':
