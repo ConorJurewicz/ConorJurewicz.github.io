@@ -10,7 +10,9 @@
     <style type = "text/css">
         p{
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size:x-large;
+            font-size: 25px;
+            padding-left: 700px;
+            padding-bottom: 100px;
         }
         h1{
             text-align: center;
@@ -38,26 +40,34 @@
         }
         img{
         padding-left: 220px;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
+        }
+        title{
+            font-size: 200%;
+            font-weight: bold;
         }
     </style>
+    <script
+    type = "text/javascript"
+    src = "{{ url_for('static', filename='mustreads.js')}}"
+    ></script>
     <h1 style = "font-size: 70px;">Must Reads</h1>
     <h1>A collection of books I recommend to everyone</h1>
     <hr>
     <br>
-    <img src="https://m.media-amazon.com/images/I/414DrcAE4-S._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41sbYnyK7GL._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/61if75g7FNL._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41MQggAwO8L.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41Hr1WWILqL._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41JFPRxkrLL._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/51KN9-IjGhL._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41s4xJZlEYL.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41Mq7Ss7lPL.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/51GiZ9gKyML.jpg" width="200" height="350">
-    <img src="https://m.media-amazon.com/images/I/41BRXkq6D8L._AC_SY780_.jpg" width="200" height="350">
-    <img src="https://kbimages1-a.akamaihd.net/b1c96137-0ddf-4ee4-8f46-73bdfa9b8621/1200/1200/False/crime-and-punishment-by-fyodor-dostoevsky-1.jpg" width="200" height="350">
-    
+    <p>Mouse over book to see author and title. </p>
+    <img src="https://m.media-amazon.com/images/I/414DrcAE4-S._AC_SY780_.jpg" width="200" height="350" title="12 Rules for Life - Jordan Peterson"/>
+    <img src="https://m.media-amazon.com/images/I/41sbYnyK7GL._AC_SY780_.jpg" width="200" height="350" title="Beyond Order 12 More Rules for Life - Jordan Peterson"/>
+    <img src="https://m.media-amazon.com/images/I/61if75g7FNL._AC_SY780_.jpg" width="200" height="350" title="Iron John - Roberty Bly"/>
+    <img src="https://m.media-amazon.com/images/I/41MQggAwO8L.jpg" width="200" height="350" title="The Gulag Archipelago - Aleksandr Solzhenitsyn"/>
+    <img src="https://m.media-amazon.com/images/I/41Hr1WWILqL._AC_SY780_.jpg" width="200" height="350" title="Down and Out in Paris and London - George Owell"/>
+    <img src="https://m.media-amazon.com/images/I/41JFPRxkrLL._AC_SY780_.jpg" width="200" height="350" title="The Art of War - Sun Tzu"/>
+    <img src="https://m.media-amazon.com/images/I/51KN9-IjGhL._AC_SY780_.jpg" width="200" height="350" title="The Book of Five Rings - Miyamoto Musashi"/>
+    <img src="https://m.media-amazon.com/images/I/41s4xJZlEYL.jpg" width="200" height="350" title="Man's Search for Meaning - Viktor E. Frankl"/>
+    <img src="https://m.media-amazon.com/images/I/41Mq7Ss7lPL.jpg" width="200" height="350" title="Principles - Ray Dalio"/>
+    <img src="https://m.media-amazon.com/images/I/51GiZ9gKyML.jpg" width="200" height="350" title="Tools of Titans - Tim Ferris"/>
+    <img src="https://m.media-amazon.com/images/I/41BRXkq6D8L._AC_SY780_.jpg" width="200" height="350" title="The Obstacle is the Way - Ryan Holiday"/>
+    <img src="https://kbimages1-a.akamaihd.net/b1c96137-0ddf-4ee4-8f46-73bdfa9b8621/1200/1200/False/crime-and-punishment-by-fyodor-dostoevsky-1.jpg" width="200" height="350" title="Crime and Punishment - Fyodor Dosteovsky/>
 </head>
 <body>
     
