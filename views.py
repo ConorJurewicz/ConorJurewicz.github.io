@@ -2,7 +2,6 @@ from flask import Blueprint, render_template, request, jsonify, redirect, url_fo
 
 views = Blueprint(__name__, "views")
 
-
 @views.route("/")
 def views_home():
     return render_template("index.html", name="Conor")
