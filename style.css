@@ -9,6 +9,24 @@ p{
 .p-center{
     text-align: center;
 }
+
+.p-qoute{
+    font-size:170%;
+    padding-top: 5%;
+    padding-left: 35%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.p-review{
+    font-size: 180%;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.p-author{
+    text-align: center;
+}
 h1{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
@@ -47,6 +65,10 @@ br{
 .img-1{
     padding-left: 220px;
     padding-bottom: 200px;
+}
+
+.img-2{
+    padding-left: 200px;
 }
 a{
     padding-left: 350px;
