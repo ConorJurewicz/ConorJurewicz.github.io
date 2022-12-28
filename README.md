@@ -1,2 +1,1 @@
-First website I am attempting to make. Code is pretty janky as I'm still learning
-Flask and the languages needed for it.
+First website I am attempting to make. Code is pretty janky as I'm still learning the languages needed for it.
