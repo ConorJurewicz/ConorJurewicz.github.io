@@ -55,7 +55,7 @@ br{
     margin: 100px;
 }
 .img-0{
-    padding-left: 760px;
+    padding-left: 35%;
 }
 .img-1{
     padding-left: 220px;
@@ -71,8 +71,8 @@ a:link { text-decoration:underline }
 a:hover { text-decoration:underline}
 a:active { text-decoration:underline }
 a{
-    padding-right: 100px;
-    padding-left: 330px;
+    padding-right: 5%;
+    padding-left: 15%;
     color:aliceblue;
     font-family:'Courier New', Courier, monospace;
     font-weight:400;
