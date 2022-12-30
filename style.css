@@ -59,8 +59,7 @@ br{
     margin: 100px;
 }
 .img-0{
-    padding-left: 650px;
-    padding-bottom: 100px;
+    padding-left: 760px;
 }
 .img-1{
     padding-left: 220px;
@@ -70,18 +69,19 @@ br{
 .img-2{
     padding-left: 200px;
 }
+
+a:visited {text-decoration: none}
+a:link { text-decoration:underline }
+a:hover { text-decoration:underline}
+a:active { text-decoration:underline }
 a{
+    padding-right: 100px;
     padding-left: 350px;
     color:aliceblue;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;            
 }
-a:visited {text-decoration: none}
-a:link { text-decoration:underline }
-a:hover { text-decoration:underline}
-a:active { text-decoration:underline }
-
 @media screen and (max-width: 700px){
     body{
         width: 91%;
